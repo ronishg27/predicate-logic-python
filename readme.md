@@ -25,9 +25,18 @@ def download_file(url, save_path):
     else:
         print(f"Failed to download file. HTTP status code: {response.status_code}")
 
-# Example usage
+# for logic.py
 file_url = 'https://raw.githubusercontent.com/ronishg27/predicate-logic-python/main/logic.py'
 save_location = '/content/logic.py'
 
 download_file(file_url, save_location)
+# for logics.py
+file_url = 'https://raw.githubusercontent.com/ronishg27/predicate-logic-python/main/logics.py'
+save_location = '/content/logics.py'
+
+
+download_file(file_url, save_location)
 ```
+
+
+
